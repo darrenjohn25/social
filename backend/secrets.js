@@ -1,3 +1,3 @@
 module.exports = {
-  dbURI: 'TODO: Replace with your MongoDB connection string',
+  dbURI: 'mongodb+srv://social:social@social.qob6w.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
 };

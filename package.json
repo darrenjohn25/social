@@ -15,16 +15,8 @@
     "client": "cd client && npm start",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jm-shi/MERN-Social-Network.git"
-  },
   "author": "Jamie Shi",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jm-shi/MERN-Social-Network/issues"
-  },
-  "homepage": "https://github.com/jm-shi/MERN-Social-Network#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "body-parser": "^1.18.3",
