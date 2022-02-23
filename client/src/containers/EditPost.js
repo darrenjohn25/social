@@ -23,11 +23,9 @@ const styles = theme => ({
 });
 
 export class EditPost extends Component {
-  /* eslint-disable react/destructuring-assignment */
   state = {
     postText: this.props.text
   };
-  /* eslint-enable react/destructuring-assignment */
 
   handleChange = (e) => {
     const postText = e.target.value;

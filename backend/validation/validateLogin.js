@@ -6,10 +6,8 @@ const isEmpty = require('./isEmpty');
 
 const validateLogin = (data) => {
   const errors = {};
-  /* eslint-disable no-param-reassign */
   data.email = !isEmpty(data.email) ? data.email : '';
   data.password = !isEmpty(data.password) ? data.password : '';
-  /* eslint-enable no-param-reassign */
 
   if (!validator.isEmail(data.email)) {
     errors.email = 'Email is invalid';

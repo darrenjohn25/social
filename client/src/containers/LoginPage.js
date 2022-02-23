@@ -72,7 +72,6 @@ class LoginPage extends Component {
     this.setState(() => ({ [name]: value }));
   };
 
-  /* eslint-disable react/destructuring-assignment, react/prop-types */
   componentDidMount = () => {
     if (this.props.auth.isAuthenticated) {
       this.props.history.push('/');
@@ -90,7 +89,6 @@ class LoginPage extends Component {
       });
     }
   };
-  /* eslint-enable react/destructuring-assignment, react/prop-types */
 
   handleSubmit = (e) => {
     e.preventDefault();
